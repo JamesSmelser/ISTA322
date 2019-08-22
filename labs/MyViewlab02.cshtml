@@ -1,0 +1,24 @@
+﻿// Name: ASPNET Lab02
+// Author: James Smelser
+// Date: August 20, 2019
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.css" />
+</head>
+<body>
+    <div class="text-center">
+        <h3>@ViewBag.Greeting</h3>
+        <h2>We are going to have an exciting party!!!</h2>
+        <h3>Bring your drinks and food.</h3>
+        <a class="btn btn-primary" asp-action="RsvpForm" style="color: white;">RSVP Now</a>
+    </div>
+</body>
+</html>
