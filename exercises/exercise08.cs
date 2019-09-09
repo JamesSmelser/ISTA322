@@ -14,7 +14,7 @@ namespace exercise08
         static void Main(string[] args)
         {
             List<int> thoUsand = new List<int>();
-            for (int i = 1; i <= 100; i++)
+            for (int i = 1; i <= 1000; i++)
             {
                 thoUsand.Add(i);
             }

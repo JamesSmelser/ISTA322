@@ -1,4 +1,7 @@
-﻿using System;
+﻿// Name: ASPNET lab05
+// Author: James Smelser
+// Date: August 28, 2019
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -8,7 +11,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace LanguageFeatures
+namespace Razor
 {
     public class Program
     {

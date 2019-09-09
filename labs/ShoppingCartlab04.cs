@@ -1,4 +1,7 @@
-﻿using System.Collections;
+﻿// Name: ASPNET lab04
+// Author: James Smelser
+// Date: August 24, 2019
+using System.Collections;
 using System.Collections.Generic;
 namespace LanguageFeatures.Models
 {
